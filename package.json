@@ -1,0 +1,23 @@
+{
+  "name": "three-3d-demos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --port 7071",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.45",
+    "vue-router": "^4.0.13",
+    "three": "^0.144.0",
+    "three-orbitcontrols": "^2.110.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.1.0",
+    "vite-plugin-pages": "^0.29.0",
+    "dat.gui": "^0.7.9"
+  }
+}
