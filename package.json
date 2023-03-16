@@ -9,15 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.45",
-    "vue-router": "^4.0.13",
     "three": "^0.144.0",
-    "three-orbitcontrols": "^2.110.3"
+    "three-orbitcontrols": "^2.110.3",
+    "vue": "^3.2.45",
+    "vue-router": "^4.0.13"
   },
   "devDependencies": {
+    "@tweenjs/tween.js": "^18",
     "@vitejs/plugin-vue": "^4.0.0",
+    "dat.gui": "^0.7.9",
     "vite": "^4.1.0",
-    "vite-plugin-pages": "^0.29.0",
-    "dat.gui": "^0.7.9"
+    "vite-plugin-pages": "^0.29.0"
   }
 }
