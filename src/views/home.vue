@@ -2,7 +2,6 @@
 import { computed } from "vue";
 import { useRouter } from "vue-router";
 const router = useRouter();
-console.log(router.getRoutes());
 
 const demosRoutes = computed(() => {
   return router.getRoutes().filter((i) => i.path !== "/home");
