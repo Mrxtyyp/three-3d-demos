@@ -24,6 +24,7 @@ function initBasic() {
   render = new THREE.WebGLRenderer();
 
   render.setSize(window.innerWidth, window.innerHeight);
+
   document.getElementById("renderBox").appendChild(render.domElement);
 }
 
