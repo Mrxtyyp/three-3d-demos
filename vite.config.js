@@ -11,6 +11,7 @@ export default defineConfig({
       dirs: [{ dir: "src/views", baseRoute: "/" }],
       // 异步方式加载路由组件
       importMode: "async",
+      extensions: ["vue"],
     }),
   ],
 });

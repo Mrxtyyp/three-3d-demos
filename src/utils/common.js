@@ -41,3 +41,21 @@ export const loadGltf = (url) => {
     );
   });
 };
+
+/**
+ * 异步加载图片
+ * @param {*} url
+ * @returns
+ */
+export const asyncLoadImg = (url) => {
+  return new Promise((resolve, reject) => {
+    let myImg = new Image();
+    myImg.src = url;
+    myImg.onload = () => {
+      resolve(myImg);
+    };
+    myImg.onerror = (err) => {
+      reject(err);
+    };
+  });
+};
